@@ -2,9 +2,12 @@
     <string name="app_name">Learn Waterloo</string>
 
     <!-- Sections -->
-    <string name="section1">Food</string>
-    <string name="section2">Groceries</string>
-    <string name="section3">Study Spaces</string>
-    <string name="section4">Housing</string>
-    <string name="section5">Interesting Things</string>
+    <string name="section1_title">Food</string>
+    <string name="section2_title">Groceries</string>
+    <string name="section3_title">Study Spaces</string>
+    <string name="section4_title">Housing</string>
+    <string name="section5_title">Interesting Things</string>
+
+    <!-- Section 1 -->
+    <string name="section1_body">Hello</string>
 </resources>

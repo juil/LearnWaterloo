@@ -23,23 +23,23 @@
         <Button
             android:id="@+id/section1"
             style="@style/NavSection"
-            android:text="@string/section1"/>
+            android:text="@string/section1_title"/>
         <Button
             android:id="@+id/section2"
             style="@style/NavSection"
-            android:text="@string/section2"/>
+            android:text="@string/section2_title"/>
         <Button
             android:id="@+id/section3"
             style="@style/NavSection"
-            android:text="@string/section3"/>
+            android:text="@string/section3_title"/>
         <Button
             android:id="@+id/section4"
             style="@style/NavSection"
-            android:text="@string/section4"/>
+            android:text="@string/section4_title"/>
         <Button
             android:id="@+id/section5"
             style="@style/NavSection"
-            android:text="@string/section5"/>
+            android:text="@string/section5_title"/>
     </LinearLayout>
 
 </RelativeLayout>
