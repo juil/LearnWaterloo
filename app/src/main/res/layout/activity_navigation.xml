@@ -22,19 +22,24 @@
         android:orientation="vertical">
         <Button
             android:id="@+id/section1"
-            style="@style/NavSection"/>
+            style="@style/NavSection"
+            android:text="@string/section1"/>
         <Button
             android:id="@+id/section2"
-            style="@style/NavSection"/>
+            style="@style/NavSection"
+            android:text="@string/section2"/>
         <Button
             android:id="@+id/section3"
-            style="@style/NavSection"/>
+            style="@style/NavSection"
+            android:text="@string/section3"/>
         <Button
             android:id="@+id/section4"
-            style="@style/NavSection"/>
+            style="@style/NavSection"
+            android:text="@string/section4"/>
         <Button
             android:id="@+id/section5"
-            style="@style/NavSection"/>
+            style="@style/NavSection"
+            android:text="@string/section5"/>
     </LinearLayout>
 
 </RelativeLayout>

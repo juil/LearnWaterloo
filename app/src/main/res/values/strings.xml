@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Learn Waterloo</string>
+
+    <!-- Sections -->
+    <string name="section1">Food</string>
+    <string name="section2">Groceries</string>
+    <string name="section3">Study Spaces</string>
+    <string name="section4">Housing</string>
+    <string name="section5">Interesting Things</string>
 </resources>
