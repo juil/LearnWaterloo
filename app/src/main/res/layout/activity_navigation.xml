@@ -11,7 +11,7 @@
     tools:context=".NavigationActivity">
 
     <View
-        android:layout_width="1dp"
+        android:layout_width="3dp"
         android:layout_height="400dp"
         android:background="@color/colorPrimary"
         android:layout_centerInParent="true"/>
