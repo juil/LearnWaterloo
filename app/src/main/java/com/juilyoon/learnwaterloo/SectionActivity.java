@@ -35,6 +35,9 @@ public class SectionActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int fileId = intent.getIntExtra(NavigationActivity.EXTRA_FILE, R.raw.error);
 
+        // Set actionbar title
+        setTitle(intent.getStringExtra(NavigationActivity.EXTRA_TITLE));
+
         // Parse markdown document
         Parser parser = Parser.builder().build();
         Node document = parser.parse(readRawFile(this, fileId));
