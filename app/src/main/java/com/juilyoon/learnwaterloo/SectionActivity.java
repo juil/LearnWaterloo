@@ -5,21 +5,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Html;
-import android.util.Log;
-import android.util.StringBuilderPrinter;
 import android.widget.ScrollView;
-import android.widget.TextView;
-import android.widget.Toolbar;
 
 import org.commonmark.html.HtmlRenderer;
 import org.commonmark.node.*;
 import org.commonmark.parser.Parser;
+import org.sufficientlysecure.htmltextview.HtmlTextView;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -44,11 +38,11 @@ public class SectionActivity extends AppCompatActivity {
         HtmlRenderer renderer = HtmlRenderer.builder().build();
 
         // Set text
-        TextView body = new TextView(this);
-        body.setText(Html.fromHtml(renderer.render(document)));
+        HtmlTextView body_html = new HtmlTextView(this);
+        body_html.setHtmlFromString(renderer.render(document), new HtmlTextView.LocalImageGetter());
 
         ScrollView scrollView = (ScrollView) findViewById(R.id.mainScroll_view);
-        scrollView.addView(body);
+        scrollView.addView(body_html);
     }
 
     @Override
