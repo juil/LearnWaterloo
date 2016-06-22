@@ -22,6 +22,7 @@ There isn't a Loblaws anywhere close, but you have a lot of options.
 ### Specialty
 - [New City Supermarket](https://goo.gl/maps/LRkpGZnNn9J2)
   - East and South-East Asian food
+- [Picards Peanuts](https://goo.gl/maps/KDvTAx9Pe862)
 
 ### Miscelaneous
 - [Valu-mart](https://goo.gl/maps/xLDXmPBEmp62)
