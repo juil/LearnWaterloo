@@ -37,12 +37,9 @@ public class SectionActivity extends AppCompatActivity {
         Node document = parser.parse(readRawFile(this, fileId));
         HtmlRenderer renderer = HtmlRenderer.builder().build();
 
-        // Set text
-        HtmlTextView body_html = new HtmlTextView(this);
+        // Set text body
+        HtmlTextView body_html = (HtmlTextView) findViewById(R.id.sectionBody_view);
         body_html.setHtmlFromString(renderer.render(document), new HtmlTextView.LocalImageGetter());
-
-        ScrollView scrollView = (ScrollView) findViewById(R.id.mainScroll_view);
-        scrollView.addView(body_html);
     }
 
     @Override

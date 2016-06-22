@@ -17,4 +17,9 @@
         <item name="android:onClick">goToSection</item>
     </style>
 
+    <!-- html-textview style for sections -->
+    <style name="SectionBody">
+        <item name="android:textColorLink">@color/colorPrimaryLight</item>
+    </style>
+
 </resources>
